@@ -1,0 +1,17 @@
+/* Replace default gamepad skin with your custom SVG */
+.controller {
+  background-image: url('https://raw.githubusercontent.com/xeraimer/gamepad/main/controller.svg') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 1000px !important;
+  height: 700px !important;
+}
+
+/* Make default buttons invisible so your SVG handles the visuals */
+.controller .button,
+.controller .dpad,
+.controller .stick,
+.controller .trigger {
+  opacity: 0 !important;
+}
